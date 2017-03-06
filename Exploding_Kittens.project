@@ -102,5 +102,7 @@
     <File Name="Game.h"/>
     <File Name="makefile"/>
     <File Name="Player.h"/>
+    <File Name="Game.cpp"/>
+    <File Name="Card.cpp"/>
   </VirtualDirectory>
 </CodeLite_Project>
