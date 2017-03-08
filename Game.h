@@ -1,7 +1,7 @@
 /*
  *Title: Exploding Kittens Card Game
  *Date: 2/22/2017
- *Author: Nick Lawrence and Jeremy Dixon
+ *Author: Boubacar Diallo
  *Description: This is the game class for the exploding kittens game
 */
 
