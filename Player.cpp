@@ -78,6 +78,9 @@ bool Player::HasExtraTurn(){
   // Postconditions - A integer status about the player in regards to the card
   //                  that was just added to his hand (see .cpp for more info)
 int Player::AddToHand(Card){
+    //stub
+    return 0;
+    
     
 }
 

@@ -11,8 +11,9 @@ Game::Game()
 {
 }
 
+
 void Game::SetNumPlayer(int numPlayers){
-    
+    this->numPlayers = numPlayers;
 }
 
 	// Name - Shuffle()
@@ -21,7 +22,7 @@ void Game::SetNumPlayer(int numPlayers){
 	// Postconditions - A deck with the elements shuffled in a different order
 void Game::Shuffle(){
     vector<Card> newDeck;
-    while(m_deck.size() !=0){
+    while(m_deck.size() != 0){
         int index = rand() % deck.size();
         newDeck.push_back(m_deck[index]);
         m_deck.remove(index);
@@ -56,7 +57,8 @@ Card Game::DrawCard(){
 	//                 a card placed on the discard pile
 	// Postconditions - Handles the card according to their descriptions
 int Game::HandleCard(int){
-        
+        //stub
+        return 0;
 }
 
 	// Name - PlayGame()
@@ -64,7 +66,7 @@ int Game::HandleCard(int){
 	// Preconditions - A loaded deck, all players having cards
 	// Postconditions - Determine winner and print to console
 void Game::PlayGame(){
-    
+        //stub
 }
 
 	// Name - LoadDeck()
@@ -72,6 +74,17 @@ void Game::PlayGame(){
 	// Preconditions - A valid filepath
 	// Postcondition - m_deck contains cards
 int Game::LoadDeck(string){
-    
+    //stub
+    return 0;
 }
 
+	// Name - AddBombCards()
+	// Desc - Loads the bomb cards in from a text file,
+	//        this must be separate due to the nature of the game
+	// Preconditions - A valid filepath, the file must contain 1 less bomb
+	//                 than the number of players
+	// Postconditions - Adds the bomb cards to m_deck
+int Game::AddBombCards(string){
+    //stub
+    return 0;
+}
